@@ -1,0 +1,6 @@
+load("//:test.bzl", "test_volatile_status")
+
+test_volatile_status(
+    name="artifact",
+    tags=["no-cache"],
+)
